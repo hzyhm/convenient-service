@@ -1,0 +1,17 @@
+<div class="main-body" ng-controller="loginCtrl">
+  <div class="wrapper">
+    <div class="phone-num-input">
+      <input placeholder="请输入手机号码" type="tel">
+    </div>
+    <div class="authcode-input clearfix">
+      <input placeholder="请输入验证码" type="tel">
+      <div id="getAuthcode">获取验证码</div>
+    </div>
+    <div class="user-agreement-checkbox">
+      <input type="checkbox" name="userAgreement" id="checkAgreement" checked ng-model="agree_F">
+      <label for="checkAgreement"></label>
+      我已阅读并同意<a>《聚店用户协议》</a>
+    </div>
+    <div class="login-btn" ng-click="login()">立即登录</div>
+  </div>
+</div>

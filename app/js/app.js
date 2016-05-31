@@ -1,0 +1,1 @@
+var app=angular.module("ConvenientService",["ui.router"]);app.config(["$stateProvider","$urlRouterProvider",function(a,b){b.otherwise("/login"),a.state("login",{url:"/login",templateUrl:"tpls/userLogin.html",title:"aaaa"})}]);
